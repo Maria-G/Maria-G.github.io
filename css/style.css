@@ -22,3 +22,44 @@ A:hover { text-decoration: none; font-weight:bold; color:#003366; }
 .purplefont{
 	color:#5a4fcf;
 }
+
+
+
+
+div.widecardwrapper {
+	max-width:28rem;
+	float:left;
+	margin:0 0 0 0.5rem;
+}
+div.widecard {
+	border-radius: 5%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+p.widecardtext {
+margin:2rem;
+}
+
+div.cardwrapper {
+	width:15rem;
+	float:left;
+	margin:0 0 0 0.5rem;
+}
+div.card {
+	border-radius: 5%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+p.cardtext {
+	margin:1rem;
+}
+
+
+div.democard {
+	border-radius: 1%;
+	margin:0 0 1.5rem 0;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+div.democardcontent {
+margin:2rem;
+}
