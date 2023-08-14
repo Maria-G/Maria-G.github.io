@@ -7,40 +7,51 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/academicons.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/new_style.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-  <script src="components/nav-header.js" type="text/javascript" defer></script>
-  <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+  <script src="components/nav-header.js" type="text/javascript" defer></script> 
+  <script src="components/top-nav.js" type="text/javascript" defer></script>
+  <script src="components/side-intro.js" type="text/javascript" defer></script>
 
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+  <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
 </head>
 
-<body height='100%' style="background-color: white;">
+
+<body class="page" height='100%'>
 
 
-<nav-header></nav-header>
 
 
-<!---------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------->
 
-
-<div width="100%" style="float:left; margin:0rem 6rem 1rem 6rem;">
-<div width="100%" style="float:left;">
+<div class="wrapper">
+  <header class="header"> 
+      <top-nav></top-nav>
+    </header>
+    
+    
+  <aside class="aside aside-1">  
+    <side-intro></side-intro>
+      
+  </aside>
+    
+     
+  <article class="main">
 
 <h2>Publications</h2>
     <p>
     The most up to date list of my publications is available on my <a href="https://scholar.google.com/citations?user=gASdXl8AAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
-     Preprints are also available on <a href="https://arxiv.org/search/?searchtype=author&query=Glenski%2C+M" target="_blank">arXiv</a> if you are unable access versions linked on Google Scholar.
+     Preprints are also available on <a href="https://arxiv.org/search/?searchtype=author&query=Glenski%2C+M" target="_blank">arXiv</a> if you are unable access versions linked.
     </p>
 
-    <br>
-  </div>
+    <br> 
 
 
 
   <table class="sortable">
     <tr>
-      <th style="text-align:left;"> Year </th>
+      <th style="text-align:left;"> Year &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     </th>
      <th> &nbsp;&nbsp; </th>
      <th style="text-align:left;"> Publication Details </th>
     </tr>
